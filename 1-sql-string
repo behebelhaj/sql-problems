@@ -1,0 +1,3 @@
+#filling the empty spaces
+SELECT x, REPLACE(x, ' ', '') AS res
+FROM nospace;
