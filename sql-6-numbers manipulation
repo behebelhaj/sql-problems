@@ -1,0 +1,2 @@
+SELECT CAST(FLOOR(bound / divisor) * divisor AS INTEGER) AS res
+FROM max_multiple;
