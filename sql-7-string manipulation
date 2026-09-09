@@ -1,0 +1,4 @@
+SELECT str,
+       LENGTH(REGEXP_REPLACE(str, '[^aeiou]', '', 'g')) AS res
+FROM getcount
+ORDER BY str ASC;
