@@ -1,0 +1,4 @@
+#finding the movies that are start with wall*
+SELECT *
+FROM movies
+where title like "WALL%"
