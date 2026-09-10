@@ -1,0 +1,3 @@
+SELECT *
+FROM movies
+where director like "%john lasseter%"
