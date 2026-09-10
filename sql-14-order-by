@@ -1,0 +1,3 @@
+SELECT distinct director
+FROM movies
+order by director
